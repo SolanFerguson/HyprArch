@@ -3,6 +3,7 @@
   "NeoColumn.nvim": { "branch": "main", "commit": "db7695c7c70fcacd290712deef659bca464634ee" },
   "alpha-nvim": { "branch": "main", "commit": "41283fb402713fc8b327e60907f74e46166f4cfd" },
   "barbar.nvim": { "branch": "master", "commit": "dd852401ee902745b67fc09a83d113b3fe82a96f" },
+  "bracey.vim": { "branch": "master", "commit": "4e1a22acc01787814819df1057d039d4ecf357eb" },
   "cmp-nvim-lsp": { "branch": "main", "commit": "5af77f54de1b16c34b23cba810150689a3a90312" },
   "cmp_luasnip": { "branch": "master", "commit": "05a9ab28b53f71d1aece421ef32fee2cb857a843" },
   "everforest": { "branch": "master", "commit": "bb482c354872cccb56f83e843caf3e5d33f89a24" },
