@@ -7,10 +7,5 @@ vim.keymap.set(
   "<cmd>ToggleNeoColumn<cr>",
   { noremap = true, silent = true, desc = "Toggle NeoColumn (line guides)" }
 )
-vim.keymap.set("n", "<leader>BB", "<cmd>Bracey<cr>", { noremap = true, silent = true, desc = "Open Bracey" })
-vim.keymap.set(
-  "n",
-  "<leader>Bn",
-  "<cmd>! npm install --prefix /home/luckless/.local/share/nvim/lazy/bracey.vim/server<cr>",
-  { noremap = true, desc = "Update Bracey Server" }
-)
+vim.keymap.set("n", "<leader>BB", "<cmd>LiveServerStart<cr>", { noremap = true, silent = true, desc = "Open Bracey" })
+vim.keymap.set("n", "<leader>Bn", "<cmd>LiveServerStop<cr>", { noremap = true, silent = true, desc = "Open Bracey" })
